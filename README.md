@@ -1,4 +1,4 @@
-# Ricoshard — support and privacy
+# RicoShard — support and privacy
 
 The two pages Apple requires a listing to link to, served by GitHub Pages.
 
