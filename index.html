@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ricoshard — Support</title>
+<meta name="description" content="Support and contact for Ricoshard, a ricochet arcade game for iPhone.">
+<style>
+  :root {
+    --bg: #0b0714;
+    --panel: #140d22;
+    --edge: #241b3e;
+    --ink: #e8e2f2;
+    --dim: #a094b8;
+    --pink: #ff4d94;
+    --gold: #ffb03a;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  .wrap { max-width: 40rem; margin: 0 auto; padding: 3rem 1.25rem 5rem; }
+  header { margin-bottom: 2.5rem; }
+  h1 {
+    font-size: clamp(2rem, 7vw, 2.75rem);
+    line-height: 1.1;
+    margin: 0 0 .4rem;
+    letter-spacing: -.02em;
+  }
+  h1 .a { color: var(--pink); }
+  h1 .b { color: var(--gold); }
+  .tag { color: var(--dim); margin: 0; font-size: 1.05rem; }
+  h2 {
+    font-size: 1.15rem;
+    margin: 2.75rem 0 .75rem;
+    letter-spacing: .02em;
+    text-transform: uppercase;
+    color: var(--dim);
+  }
+  p { margin: 0 0 1rem; }
+  a { color: var(--pink); }
+  a:focus-visible, summary:focus-visible {
+    outline: 2px solid var(--gold);
+    outline-offset: 3px;
+    border-radius: 3px;
+  }
+  .card {
+    background: var(--panel);
+    border: 1px solid var(--edge);
+    border-radius: 12px;
+    padding: 1.1rem 1.25rem;
+    margin: 0 0 1rem;
+  }
+  .card p:last-child { margin-bottom: 0; }
+  .mail { font-weight: 600; font-size: 1.05rem; }
+  details {
+    border-bottom: 1px solid var(--edge);
+    padding: .9rem 0;
+  }
+  details:first-of-type { border-top: 1px solid var(--edge); }
+  summary { cursor: pointer; font-weight: 600; list-style: none; }
+  summary::-webkit-details-marker { display: none; }
+  summary::before { content: "+ "; color: var(--pink); font-weight: 700; }
+  details[open] summary::before { content: "\2013 "; }
+  details p { margin: .7rem 0 .2rem; color: var(--dim); }
+  footer {
+    margin-top: 3.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--edge);
+    color: var(--dim);
+    font-size: .92rem;
+  }
+  footer a { color: var(--dim); }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <h1><span class="a">RICO</span><span class="b">SHARD</span></h1>
+    <p class="tag">Bank every shot. Beat the boss.</p>
+  </header>
+
+  <h2>Get in touch</h2>
+  <div class="card">
+    <p>Something broken, an idea, or a boss you cannot beat — write to me and
+      I will read it.</p>
+    <p class="mail"><a href="mailto:ricoshard.game@gmail.com">ricoshard.game@gmail.com</a></p>
+    <p style="color:var(--dim);font-size:.92rem">It is one person answering, so
+      give it a day or two. If you are reporting a bug, the version number from
+      the game's info page and what you were doing at the time is most of what
+      I need.</p>
+  </div>
+
+  <h2>Common questions</h2>
+
+  <details>
+    <summary>Where is my progress kept?</summary>
+    <p>On your device, and nowhere else. There is no account and no server, so
+      your coins, diamonds, best round, upgrades and unlocked balls live in the
+      app itself.</p>
+  </details>
+
+  <details>
+    <summary>I deleted the app and lost everything. Can you restore it?</summary>
+    <p>I am afraid not. Because nothing is stored on a server, there is nothing
+      for me to look up — deleting the app removes the save with it. Moving to a
+      new phone via an iCloud <em>device</em> backup usually carries it across;
+      a fresh install does not.</p>
+  </details>
+
+  <details>
+    <summary>Does it need an internet connection?</summary>
+    <p>No. It plays exactly the same on a plane.</p>
+  </details>
+
+  <details>
+    <summary>Closing the app mid-round lost the round.</summary>
+    <p>That one is by design. Everything you have earned is saved, but the wall,
+      the balls in the air and the boss on the board are not — a round is short,
+      and storing all of it to survive an interruption was not worth what it
+      would cost. You lose that round and nothing else.</p>
+  </details>
+
+  <details>
+    <summary>What are the daily challenges, and when do they change?</summary>
+    <p>Three every day — one easy, one medium, one hard — and they reset at
+      midnight, your local time. They are drawn from the date itself, so
+      everyone gets the same three and reloading will not reroll them.</p>
+  </details>
+
+  <details>
+    <summary>How do I get more diamonds?</summary>
+    <p>Two ways: best-round milestones, and the daily challenges. Diamonds open
+      mystery boxes, and each box gives you a ball you do not already own.</p>
+  </details>
+
+  <details>
+    <summary>Why does Leanberg get easier some rounds?</summary>
+    <p>He drops his guard on his third and fifth rounds and takes far more
+      damage. The background tells you: it beats faster and harder while he is
+      open. Save a good board position for it.</p>
+  </details>
+
+  <footer>
+    <p><a href="privacy.html">Privacy policy</a></p>
+    <p>Ricoshard is made by one person. Thanks for playing it.</p>
+  </footer>
+
+</div>
+</body>
+</html>
